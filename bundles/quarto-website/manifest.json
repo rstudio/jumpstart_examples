@@ -1,0 +1,70 @@
+{
+    "version": 1,
+    "locale": "en_US",
+    "platform": "4.3.1",
+    "metadata": {
+        "appmode": "quarto-static",
+        "primary_rmd": "index.qmd",
+        "primary_html": null,
+        "content_category": null,
+        "has_parameters": false
+    },
+    "quarto": {
+        "version": "1.4.549",
+        "engines": [
+            "markdown",
+            "jupyter"
+        ]
+    },
+    "python": {
+        "version": "3.8.17",
+        "package_manager": {
+            "name": "pip",
+            "version": "23.2.1",
+            "package_file": "requirements.txt"
+        }
+    },
+    "packages": null,
+    "files": {
+        "_quarto.yml": {
+            "checksum": "22223f7002cc62b09e3bf6965638fa60"
+        },
+        "about.qmd": {
+            "checksum": "bd5d268b13b3106867110f5e6e172782"
+        },
+        "all.qmd": {
+            "checksum": "c0d81d9dd74101a107ad8852cafc65d8"
+        },
+        "icons/api.svg": {
+            "checksum": "8db6e1a50fd29491cc2aad6ca454ef70"
+        },
+        "icons/app.svg": {
+            "checksum": "c31310e1fa73fb62aa3cfab5ece6bc8d"
+        },
+        "icons/doc.svg": {
+            "checksum": "bbb591cec3e4b5033910ffc15545bb70"
+        },
+        "icons/model.svg": {
+            "checksum": "3207459a89ce519e5a170b2cdae0c834"
+        },
+        "icons/pin.svg": {
+            "checksum": "421c4a2a88ff835eecf3e63429961c09"
+        },
+        "icons/plot.svg": {
+            "checksum": "d051b4fece60e59c1546f6ba1c3c45b9"
+        },
+        "index.qmd": {
+            "checksum": "29aa9ac0a2ce64b81b603fa7068ceea3"
+        },
+        "prepare.py": {
+            "checksum": "eb79866e8866b5ca1cdc91d08a470181"
+        },
+        "README.md": {
+            "checksum": "90056b2c94761fe4618d02e658c8f2f1"
+        },
+        "requirements.txt": {
+            "checksum": "bce1f2ac03bf916a35ff941dd03634d3"
+        }
+    },
+    "users": null
+}
