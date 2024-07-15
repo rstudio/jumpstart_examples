@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "locale": "en_US",
+  "platform": "4.3.1",
+  "metadata": {
+    "appmode": "quarto-static",
+    "primary_rmd": "vetiver.qmd",
+    "primary_html": null,
+    "content_category": null,
+    "has_parameters": false
+  },
+  "quarto": {
+    "version": "1.4.549",
+    "engines": ["jupyter"]
+  },
+  "python": {
+    "version": "3.8.17",
+    "package_manager": {
+      "name": "pip",
+      "version": "23.2.1",
+      "package_file": "requirements.txt"
+    }
+  },
+  "packages": null,
+  "files": {
+    "README.md": {
+      "checksum": "45a7aa66184018604ae98813b136c4d1"
+    },
+    "requirements.txt": {
+      "checksum": "9e2fe701651056540089168b35f61520"
+    },
+    "vetiver.qmd": {
+      "checksum": "beb1cc1f8163cf999b52bcc82cb795d2"
+    }
+  },
+  "users": null
+}
