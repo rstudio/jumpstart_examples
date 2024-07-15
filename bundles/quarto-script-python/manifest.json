@@ -1,0 +1,31 @@
+{
+    "version": 1,
+    "locale": "en_US",
+    "platform": "4.3.1",
+    "metadata": {
+        "appmode": "static",
+        "primary_rmd": null,
+        "primary_html": "UntitledR.html",
+        "content_category": null,
+        "has_parameters": false
+    },
+    "packages": null,
+    "files": {
+        "_quarto.yml": {
+            "checksum": "e5bfdf389c2ae3bc115d8f4add41fc2f"
+        },
+        "README.md": {
+            "checksum": "3ce16e116a0ab1ea4498c7df883b6bc2"
+        },
+        "requirements.txt": {
+            "checksum": "5a4857556ad99f3dcf2021cf49cfcb6f"
+        },
+        "script.py": {
+            "checksum": "46d490184f5d440c884c6fd28460b54f"
+        },
+        "UntitledR.html": {
+            "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+        }
+    },
+    "users": null
+}
