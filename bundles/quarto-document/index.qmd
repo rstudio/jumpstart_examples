@@ -5,7 +5,7 @@ format:
     echo: false
 ---
 
-DELETEME Quarto enables you to weave together content and executable code into a
+Quarto enables you to weave together content and executable code into a
 finished document. To learn more about Quarto see <https://quarto.org>.
 
 ## Workflow diagram
