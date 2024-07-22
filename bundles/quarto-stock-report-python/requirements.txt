@@ -8,4 +8,4 @@ ipywidgets==8.1.2
 
 matplotlib
 pandas
-yfinance
+yfinance==0.2.37
