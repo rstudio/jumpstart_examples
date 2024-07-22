@@ -11,10 +11,12 @@
   },
   "quarto": {
     "version": "1.4.549",
-    "engines": ["jupyter"]
+    "engines": [
+      "jupyter"
+    ]
   },
   "python": {
-    "version": "3.8.17",
+    "version": "3.11.3",
     "package_manager": {
       "name": "pip",
       "version": "23.2.1",
