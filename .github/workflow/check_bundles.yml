@@ -1,0 +1,40 @@
+name: Check Bundles
+
+on: [push, pull_request]
+
+jobs:
+  check_bundles:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Run bundle check script
+      run: |
+        #!/bin/bash
+        set -e
+
+        BUNDLE_DIR="bundles"
+        ERROR=0
+
+        for dir in $(find "$BUNDLE_DIR" -mindepth 1 -maxdepth 1 -type d); do
+          MISSING_FILES=()
+
+          if [[ ! -f "$dir/manifest.json" ]]; then
+            MISSING_FILES+=("manifest.json")
+          fi
+
+          if [[ ! -f "$dir/expected_result.txt" ]]; then
+            MISSING_FILES+=("expected_result.txt")
+          fi
+
+          if [[ ${#MISSING_FILES[@]} -ne 0 ]]; then
+            echo "Error: Directory $dir is missing the following files: ${MISSING_FILES[*]}"
+            ERROR=1
+          fi
+        done
+
+        if [[ $ERROR -ne 0 ]]; then
+          exit 1
+        fi
