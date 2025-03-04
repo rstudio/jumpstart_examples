@@ -6,6 +6,6 @@ nbconvert==7.16.5
 ipykernel==6.29.3
 ipywidgets==8.1.2
 
-matplotlib
-pandas
-yfinance==0.2.37
+matplotlib==3.10.1
+pandas==2.2.3
+yfinance==0.2.54
