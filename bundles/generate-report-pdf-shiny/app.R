@@ -6,7 +6,7 @@ shinyApp(
   server = function(input, output) {
     output$report <- downloadHandler(
       # For PDF output, change this to "report.pdf"
-      filename = "report.html",
+      filename = "report.pdf",
       content = function(file) {
         # Copy the report file to a temporary directory before processing it, in
         # case we don't have write permissions to the current working dir (which
